@@ -1,5 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+button {
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid transparent;
 }
