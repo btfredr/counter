@@ -9,8 +9,9 @@ body {
 }
 
 button {
-  padding: 0.5rem;
+  padding: 1rem;
   font-weight: bold;
   border-radius: 5px;
   border: 1px solid transparent;
+  width: 100px;
 }

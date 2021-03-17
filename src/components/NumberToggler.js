@@ -10,7 +10,8 @@ const NumberToggler = () => {
         setNumber(number === 0 ? null : number + 1);
       }}
     >
-      <button title="Add number">{number === 0 ? null : number + 1}</button>
+      <p>Click button to add number</p>
+      <button>{number === 0 ? null : number + 1}</button>
     </div>
   );
 };
