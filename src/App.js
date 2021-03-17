@@ -7,8 +7,8 @@ function App() {
   const NumberHook = useState(0);
   return (
     <NumberContext.Provider value={NumberHook}>
-      <NumberToggler />
       <h1>Welcome</h1>
+      <NumberToggler />
     </NumberContext.Provider>
   );
 }
